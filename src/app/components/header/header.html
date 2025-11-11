@@ -1,0 +1,10 @@
+<div class="header">
+  <span class="header-logo">VetGuerrer</span>
+  <ul class="header__navigation">
+    @for(category of categories; track $index) {
+      <li class="header__navigation-item">
+        <a class="header__navigation-item--link" href="#">{{ category }}</a>
+      </li>
+    }
+  </ul>
+</div>
